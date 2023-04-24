@@ -1,0 +1,16 @@
+.Board-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  max-width: 100%;
+  margin: 5%;
+  gap: 1rem;
+}
+  @media screen and (max-width: 768px) {
+    
+    .Board-wrapper {
+      flex-wrap: wrap;
+    }
+  }
+
